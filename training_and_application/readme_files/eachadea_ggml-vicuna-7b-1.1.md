@@ -1,0 +1,5 @@
+---
+inference: true
+---
+
+Obsolete model.

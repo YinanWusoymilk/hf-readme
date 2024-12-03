@@ -1,0 +1,1 @@
+mistral architecture model, randomly initialized. useful for e2e testing.

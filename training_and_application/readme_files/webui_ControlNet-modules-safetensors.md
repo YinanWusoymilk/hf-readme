@@ -1,0 +1,3 @@
+This repository hosts pruned `.safetensors` modules of [ControlNet](https://huggingface.co/lllyasviel/ControlNet), by [lllyasviel](https://huggingface.co/lllyasviel) and [T2I-Adapters](https://huggingface.co/TencentARC/T2I-Adapter), [TencentARC Team](https://huggingface.co/TencentARC)
+
+The modules are meant for [this extension for AUTOMATIC1111/stable-diffusion-webui](https://github.com/Mikubill/sd-webui-controlnet), but should work for different webuis too if they have it implemented. cheers!🥂
