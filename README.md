@@ -1,4 +1,4 @@
-#### Readme File Analyzer
+## Readme File Analyzer
 
 This project is a web-based tool that analyzes README files from Hugging Face models. It accepts a README file as input and shows the presence or absence of key documentation components, along with the content of each present section. We fine-tuned the chatgpt4o model using our labeled data and leveraged the model in the backend. The tool visualizes both existing and missing sections, aiding developers in improving their README documentation for better clarity and completeness.
 
@@ -41,7 +41,7 @@ This project is a web-based tool that analyzes README files from Hugging Face mo
    python3 upload_file.py
    ```
    This will upload the file and dispatch the job to start fine-tuning
-#### Run the tool
+### Run the tool
 
 Follow steps `1-3` in the Finetuning section.
 
@@ -58,7 +58,7 @@ Follow steps `1-3` in the Finetuning section.
    It will start the app at `127.0.0.1:5000` by default. 
    
    
-#### Appendix
+### Appendix
    
    [Traning Data](https://github.com/YinanWusoymilk/hf-readme/blob/main/training_and_application/src/readme_sections_with_chat_format.jsonl): The JSONL file needed to fine-tune the model 
    
