@@ -1,0 +1,10 @@
+# Ignore markdown files
+*.md
+
+# Ignore CSV files
+*.csv
+
+# Ignore JSON files
+*.json
+
+*.yaml
