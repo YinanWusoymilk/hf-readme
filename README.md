@@ -28,6 +28,11 @@ This project is a web-based tool that analyzes README files from Hugging Face mo
    python3 -m venv venv-readme-genai
    source venv-readme-genai/bin/activate
    ```
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 3. **Set Environment Variables**
  Create a `.env` file by copying the .env.example to `.env` and set your `OPENAI_API_KEY` in the .env file 
    ```bash
