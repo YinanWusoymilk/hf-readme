@@ -11,7 +11,7 @@ app = Flask(__name__)
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Model ID of your fine-tuned model
-FINE_TUNED_MODEL = "ft:gpt-4o-2024-08-06:personal::AUWHEdAd"
+FINE_TUNED_MODEL = os.getenv('FINE_TUNE_MODEL_ID')
 
 # Homepage route
 @app.route('/')
